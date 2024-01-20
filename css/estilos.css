@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Martel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+}
+
+main {
+  color: black;
+  margin: 50px;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+}
+header .colorHeader {
+  background-color: black;
+}
+header .navbar-expand-lg .navbar-brand {
+  font-size: 2rem;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: "Lobster Two", sans-serif;
+}
+footer h1 {
+  font-size: 1.5rem;
+}
+footer h2 {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "merriweather", serif;
+}
+.mainIndex img {
+  width: 100%;
+  height: 100%;
+}
+.mainIndex h1 {
+  font-size: 3rem;
+}
+.mainIndex h2 {
+  font-size: 1.7rem;
+  margin: 30px 20px;
+}
+
+.textoInfo {
+  margin: 50px;
+  font-family: "merriweather", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.textoInfo .imagenInfo {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin: 10px 10px;
+}
+.textoInfo h2 {
+  margin: 30px;
+}
+.textoInfo p {
+  font-size: 1.3rem;
+}
+
+.mainRedes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.mainRedes .tarjetaIframe {
+  border: 1px solid #000000;
+  box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+}
+.mainRedes .tarjetaInstagram {
+  width: 25%;
+}
+
+.gridTrabajos {
+  font-family: "merriweather", serif;
+  display: grid;
+  grid-template-columns: 25% 65%;
+  grid-template-rows: 35% 35% 35%;
+}
+.gridTrabajos .carrousel1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.gridTrabajos .carrousel2 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.gridTrabajos .carrousel3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.gridTrabajos .texto1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.gridTrabajos .texto1 h2 {
+  font-size: 2.5rem;
+}
+.gridTrabajos .texto1 p {
+  margin: 40px 80px;
+  font-size: 1.5rem;
+}
+.gridTrabajos .texto2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.gridTrabajos .texto2 h2 {
+  font-size: 2.5rem;
+}
+.gridTrabajos .texto2 p {
+  margin: 40px 80px;
+  font-size: 1.5rem;
+}
+.gridTrabajos .texto3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.gridTrabajos .texto3 h2 {
+  font-size: 2.5rem;
+}
+.gridTrabajos .texto3 p {
+  margin: 40px 80px;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=estilos.css.map */

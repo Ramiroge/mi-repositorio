@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Martel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+@import "utilidades/variables.scss";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    width: 100%;
+}
+
+// main
+
+main {
+    color: black;
+    margin: 50px;
+}
+
+
+@import "utilidades/header.scss";
+@import "utilidades/footer.scss";
+
+@import "pages/contacto.scss";
+@import "pages/index.scss";
+@import "pages/info.scss";
+@import "pages/redes.scss";
+@import "pages/trabajos.scss";

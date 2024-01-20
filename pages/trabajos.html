@@ -1,108 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="../style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/estilos.css">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <!-- Titulo -->
-    <title>Nuestros trabajos</title>
+  <!-- Titulo -->
+  <title>Nuestros trabajos</title>
 </head>
 
+
 <body>
+    <!-- Header -->
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="../index.html">Loudet Vitraux</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="../index.html">Pagina principal</a>
-                  <a class="nav-link" href="redes.html">Redes</a>
-                  <a class="nav-link active" href="trabajos.html">Nuestros trabajos</a>
-                  <a class="nav-link" href="info.html">El vitraux, que es?</a>
-                  <a class="nav-link" href="contacto.html">Contacto</a>
-                </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Loudet Vitraux</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" aria-current="page" href="../index.html">Pagina principal</a>
+              <a class="nav-link" href="redes.html">Redes</a>
+              <a class="nav-link active" href="trabajos.html">Nuestros trabajos</a>
+              <a class="nav-link" href="info.html">El vitraux, que es?</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main class="gridTrabajos">
+
+      <!-- Primer carrousel -->
+      <section class="carousel1">
+        <div id="carrousel1" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/instagram1.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
               </div>
             </div>
-        </nav>
-    </header>
-
-    <main>
-        <section class="carousel">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="../images/instagram1.jpg" class="d-block w-100" alt="vitraux">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Primera foto</h5>
-                      <p>Some representative placeholder content for the first slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/instagram2.jpg" class="d-block w-100" alt="vitraux">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Segunda foto</h5>
-                      <p>Some representative placeholder content for the second slide.</p>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="../images/instagram3.jpg" class="d-block w-100" alt="vitraux">
-                    <div class="carousel-caption d-none d-md-block">
-                      <h5>Tercera foto</h5>
-                      <p>Some representative placeholder content for the third slide.</p>
-                    </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
+            <div class="carousel-item">
+              <img src="../images/instagram2.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
               </div>
-    
-        </section>
-        <!-- Carousel -->
-        <!-- <section class="grid-container">
-            <div class="grid-img-1"><img src="../images/instagram1.jpg" alt="vitraux"></div>
-            <div class="grid-img-2"><img src="../images/instagram2.jpg" alt="vitraux"></div>
-            <div class="grid-img-3"><img src="../images/instagram3.jpg" alt="vitraux"></div>
-            <div class="grid-texto-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minima animi quaerat. Vitae accusantium libero harum distinctio, laboriosam voluptatibus esse nam similique itaque in enim voluptas assumenda iure quidem hic.</div>
-            <div class="grid-texto-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed dolorem, cum in temporibus, alias labore cumque perspiciatis a molestias quas quia modi ex ea debitis quo nostrum laboriosam veritatis! Molestiae.</div>
-            <div class="grid-texto-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis sunt sit at nihil earum quis, voluptate unde modi voluptas maxime recusandae suscipit necessitatibus mollitia adipisci quia perferendis! Nihil, suscipit!</div>
-            <div class="grid-img-4"><img src="../images/instagram4.jpg" alt="vitraux"></div>
-            <div class="grid-img-5"><img src="../images/instagram5.jpg" alt="vitraux"></div>
-            <div class="grid-img-6"><img src="../images/instagram6.jpg" alt="vitraux"></div>
-            <div class="grid-texto-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio minima animi quaerat. Vitae accusantium libero harum distinctio, laboriosam voluptatibus esse nam similique itaque in enim voluptas assumenda iure quidem hic.</div>
-            <div class="grid-texto-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed dolorem, cum in temporibus, alias labore cumque perspiciatis a molestias quas quia modi ex ea debitis quo nostrum laboriosam veritatis! Molestiae.</div>
-            <div class="grid-texto-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui corporis sunt sit at nihil earum quis, voluptate unde modi voluptas maxime recusandae suscipit necessitatibus mollitia adipisci quia perferendis! Nihil, suscipit!</div>
-         -->
-        </section>
-        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUIsR2HW7_AWLyuohMW8mY5Ec-0ywKoAgY2A&usqp=CAU" alt="vitraux">
-        <img src="https://vitralesartesanales.com.ar/wp-content/uploads/2019/12/tiffany-531992_1280.jpg" alt="vitraux">
-        -->
-    </main>
-    <footer>
-        <p>Todos los derechos reservados</p>
-    </footer>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/instagram3.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrousel1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrousel1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
 
-    <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script></body>
+      <!-- Segundo carrousel -->
+      <section class="carousel2">
+        <div id="carrousel2" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/instagram4.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/instagram5.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/instagram6.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrousel2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrousel2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Tercer carrousel -->
+      <section class="carousel3">
+        <div id="carrousel3" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/instagram7.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/instagram8.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../images/instagram9.jpg" class="d-block w-100" alt="vitraux">
+              <div class="carousel-caption d-none d-md-block">
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carrousel3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carrousel3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+
+      <!-- Textos -->
+      <div class="texto1">
+        <h2>Vitraux Focal</h2>
+        <p>
+          Descubre la elegancia atemporal del Vitraux Focal, donde la belleza se concentra en una pieza central. Nuestra colección fusiona la simplicidad y la artesanía para crear composiciones vítreas que capturan la esencia de la elegancia minimalista.
+        </p>
+      </div>
+      <div class="texto2">
+        <h2>Vitraux Minimalista</h2>
+        <p>
+          Explora la esencia del vitraux minimalista, donde la simplicidad se encuentra con la elegancia. Con líneas limpias y colores armoniosos, cada pieza es una expresión artística que cautiva con su serenidad y atemporalidad. Descubre la belleza de un estilo que destila modernidad y clase en cada obra, redefiniendo la interpretación del arte del vidrio.
+        </p>
+      </div>
+      <div class="texto3">
+        <h2>Vitraux Detallado</h2>
+        <p>
+          Explora la exquisita complejidad del Vitraux Detallado, donde cada pieza es una obra maestra meticulosamente diseñada. Sumérgete en la riqueza de los detalles, las formas y los colores que componen nuestro arte vitral, fusionando la artesanía tradicional con la expresión visual contemporánea.
+        </p>
+      </div>
+    </main>
+
+    <!-- Footer -->
+  <footer>
+    <h1>Todos los derechos reservados</h1>
+    <div>
+      <a href="https://www.instagram.com/loudetvitraux?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+        <h2>Instagram</h2>
+      </a>
+      <a href="">
+        <h2>Facebook</h2>
+      </a>
+    </div>
+  </footer>
+
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script></body>
 </body>
 </html>

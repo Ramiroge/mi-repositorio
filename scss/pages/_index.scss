@@ -1,0 +1,17 @@
+.mainIndex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    h2 {
+        font-size: 1.7rem;
+        margin: 30px 20px;
+    }
+}

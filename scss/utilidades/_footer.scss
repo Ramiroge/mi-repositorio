@@ -1,0 +1,24 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: $fontLob;
+    h1{
+        font-size: 1.5rem;
+    }
+    h2{
+        text-align: center;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: white;
+    
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover{
+        color: gray;
+        text-decoration: underline;
+    }
+}

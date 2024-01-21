@@ -1,20 +1,27 @@
 // Main redes
 .mainRedes {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    align-items: center;
-
-    .tarjetaIframe {
-
-        border: 1px solid #000000;
-        box-shadow: 26px 26px 7px 0px rgba(0,0,0,0.76);
-        -webkit-box-shadow: 26px 26px 7px 0px rgba(0,0,0,0.76);
-        -moz-box-shadow: 26px 26px 7px 0px rgba(0,0,0,0.76);
+    h1 {
+        font-family: $font;
+        font-size: 3rem;
+        text-align: center;
+        margin-bottom: 30px;
     }
-    .tarjetaInstagram {
-        width: 25%;
-    }
+    .iframes {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
 
+        .tarjetaIframe {
+
+            border: 1px solid #000000;
+            box-shadow: 26px 26px 7px 0px rgba(0,0,0,0.76);
+            -webkit-box-shadow: 26px 26px 7px 0px rgba(0,0,0,0.76);
+            -moz-box-shadow: 26px 26px 7px 0px rgba(0,0,0,0.76);
+        }
+        .tarjetaInstagram {
+            width: 20%;
+        }
+
+    }
 }
-

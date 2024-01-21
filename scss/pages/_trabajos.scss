@@ -1,72 +1,81 @@
-.mainTrabajos { 
-    font-family: $font;
-
-    display: grid;
-    grid-template-columns: 25% 65%;
-    grid-template-rows: 35% 35% 35%;
-
-    .carrousel1{
-        grid-column: 1/2;
-        grid-row: 1/2;
-    }
-    .carrousel2{
-        grid-column: 1/2;
-        grid-row: 2/3;
-    }
-    .carrousel3{
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-    .texto1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        grid-column: 2/3;
-        grid-row: 1/2;
-
-        h2{
-            font-size: 2.5rem;
-        }
-        p{
-            margin: 40px 80px;
-            font-size: 1.5rem;
-        }
-    }
-    .texto2{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
+.mainTrabajos {
+    h1 {
+        font-family: $font;
+        font-size: 3rem;
         text-align: center;
-        grid-column: 2/3;
-        grid-row: 2/3;
-        h2{
-            font-size: 2.5rem;
-        }
-        p{
-            margin: 40px 80px;
-            font-size: 1.5rem;
-        }
+        margin-bottom: 30px;
     }
-    .texto3{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-
-        text-align: center;
-        grid-column: 2/3;
-        grid-row: 3/4;
-
-        h2{
-            font-size: 2.5rem;
+    .gridTrabajos { 
+        font-family: $font;
+    
+        display: grid;
+        grid-template-columns: 25% 65%;
+        grid-template-rows: 35% 35% 35%;
+    
+        
+        .carrousel1{
+            grid-column: 1/2;
+            grid-row: 1/2;
         }
-        p{
-            margin: 40px 80px;
-            font-size: 1.5rem;
+        .carrousel2{
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .carrousel3{
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .texto1{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            grid-column: 2/3;
+            grid-row: 1/2;
+    
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                margin: 40px 80px;
+                font-size: 1.5rem;
+            }
+        }
+        .texto2{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            text-align: center;
+            grid-column: 2/3;
+            grid-row: 2/3;
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                margin: 40px 80px;
+                font-size: 1.5rem;
+            }
+        }
+        .texto3{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+    
+            text-align: center;
+            grid-column: 2/3;
+            grid-row: 3/4;
+    
+            h2{
+                font-size: 2.5rem;
+            }
+            p{
+                margin: 40px 80px;
+                font-size: 1.5rem;
+            }
         }
     }
 }

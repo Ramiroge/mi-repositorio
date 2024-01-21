@@ -9,6 +9,11 @@ html {
   width: 100%;
 }
 
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
 main {
   color: black;
   margin: 50px;
@@ -64,6 +69,11 @@ footer a:hover {
   text-align: center;
   font-family: "merriweather", serif;
 }
+.formulario h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
 .formulario form {
   background-color: black;
   max-width: 20%;
@@ -116,6 +126,11 @@ footer a:hover {
   flex-direction: column;
   align-items: center;
 }
+.mainInfo h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
 .mainInfo .imagenInfo {
   max-width: 300px;
   width: 100%;
@@ -132,41 +147,53 @@ footer a:hover {
   text-align: justify;
 }
 
-.mainRedes {
+.mainRedes h1 {
+  font-family: "merriweather", serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mainRedes .iframes {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
   align-items: center;
 }
-.mainRedes .tarjetaIframe {
+.mainRedes .iframes .tarjetaIframe {
   border: 1px solid #000000;
   box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
   -webkit-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
   -moz-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
 }
-.mainRedes .tarjetaInstagram {
-  width: 25%;
+.mainRedes .iframes .tarjetaInstagram {
+  width: 20%;
 }
 
-.mainTrabajos {
+.mainTrabajos h1 {
+  font-family: "merriweather", serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mainTrabajos .gridTrabajos {
   font-family: "merriweather", serif;
   display: grid;
   grid-template-columns: 25% 65%;
   grid-template-rows: 35% 35% 35%;
 }
-.mainTrabajos .carrousel1 {
+.mainTrabajos .gridTrabajos .carrousel1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.mainTrabajos .carrousel2 {
+.mainTrabajos .gridTrabajos .carrousel2 {
   grid-column: 1/2;
   grid-row: 2/3;
 }
-.mainTrabajos .carrousel3 {
+.mainTrabajos .gridTrabajos .carrousel3 {
   grid-column: 1/2;
   grid-row: 3/4;
 }
-.mainTrabajos .texto1 {
+.mainTrabajos .gridTrabajos .texto1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -174,14 +201,14 @@ footer a:hover {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.mainTrabajos .texto1 h2 {
+.mainTrabajos .gridTrabajos .texto1 h2 {
   font-size: 2.5rem;
 }
-.mainTrabajos .texto1 p {
+.mainTrabajos .gridTrabajos .texto1 p {
   margin: 40px 80px;
   font-size: 1.5rem;
 }
-.mainTrabajos .texto2 {
+.mainTrabajos .gridTrabajos .texto2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,14 +217,14 @@ footer a:hover {
   grid-column: 2/3;
   grid-row: 2/3;
 }
-.mainTrabajos .texto2 h2 {
+.mainTrabajos .gridTrabajos .texto2 h2 {
   font-size: 2.5rem;
 }
-.mainTrabajos .texto2 p {
+.mainTrabajos .gridTrabajos .texto2 p {
   margin: 40px 80px;
   font-size: 1.5rem;
 }
-.mainTrabajos .texto3 {
+.mainTrabajos .gridTrabajos .texto3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -206,10 +233,10 @@ footer a:hover {
   grid-column: 2/3;
   grid-row: 3/4;
 }
-.mainTrabajos .texto3 h2 {
+.mainTrabajos .gridTrabajos .texto3 h2 {
   font-size: 2.5rem;
 }
-.mainTrabajos .texto3 p {
+.mainTrabajos .gridTrabajos .texto3 p {
   margin: 40px 80px;
   font-size: 1.5rem;
 }
@@ -225,31 +252,31 @@ footer a:hover {
     font-size: 1.2rem;
     text-align: justify;
   }
-  .mainRedes {
+  .mainRedes .iframes {
     flex-direction: column;
     align-items: stretch;
   }
-  .mainRedes .tarjetaIframe {
+  .mainRedes .iframes .tarjetaIframe {
     width: 100%;
   }
-  .mainRedes .tarjetaInstagram {
+  .mainRedes .iframes .tarjetaInstagram {
     margin-bottom: 70px;
   }
-  .mainTrabajos {
+  .mainTrabajos .gridTrabajos {
     display: flex;
     flex-direction: column;
   }
-  .mainTrabajos .texto1 p {
+  .mainTrabajos .gridTrabajos .texto1 p {
     margin: 20px 0px 50px;
     font-size: 1.3rem;
     text-align: justify;
   }
-  .mainTrabajos .texto2 p {
+  .mainTrabajos .gridTrabajos .texto2 p {
     margin: 20px 0px 50px;
     font-size: 1.3rem;
     text-align: justify;
   }
-  .mainTrabajos .texto3 p {
+  .mainTrabajos .gridTrabajos .texto3 p {
     margin: 20px 0px 50px;
     font-size: 1.3rem;
     text-align: justify;

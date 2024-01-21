@@ -17,43 +17,45 @@
 
     // Redes
     .mainRedes{
-        flex-direction: column;
-        align-items: stretch;
-        .tarjetaIframe{
-            width: 100%;
-        }
-        .tarjetaInstagram{
-            margin-bottom: 70px;
+        .iframes {
+            flex-direction: column;
+            align-items: stretch;
+            .tarjetaIframe{
+                width: 100%;
+            }
+            .tarjetaInstagram{
+                margin-bottom: 70px;
+            }
         }
     }
-
     // Trabajos
-    .mainTrabajos{
-        display: flex;
-        flex-direction: column;
-        .texto1{
-            p{
-                margin: 20px 0px 50px;
-                font-size: 1.3rem;
-                text-align: justify;
+    .mainTrabajos {
+        .gridTrabajos {
+            display: flex;
+            flex-direction: column;
+            .texto1{
+                p{
+                    margin: 20px 0px 50px;
+                    font-size: 1.3rem;
+                    text-align: justify;
+                }
             }
-        }
-        .texto2{
-            p{
-                margin: 20px 0px 50px;
-                font-size: 1.3rem;
-                text-align: justify;
+            .texto2{
+                p{
+                    margin: 20px 0px 50px;
+                    font-size: 1.3rem;
+                    text-align: justify;
+                }
             }
-        }
-        .texto3{
-            p{
-                margin: 20px 0px 50px;
-                font-size: 1.3rem;
-                text-align: justify;
+            .texto3{
+                p{
+                    margin: 20px 0px 50px;
+                    font-size: 1.3rem;
+                    text-align: justify;
+                }
             }
         }
     }
-
     // Info
     .mainInfo{
         margin: 30px;

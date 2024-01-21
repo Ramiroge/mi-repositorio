@@ -1,5 +1,4 @@
-.textoInfo {
-    margin: 50px;
+.mainInfo {
     font-family: $font;
     display: flex;
     flex-direction: column;
@@ -17,5 +16,6 @@
     }
     p {
         font-size: 1.3rem;
+        text-align: justify;
     }
 }

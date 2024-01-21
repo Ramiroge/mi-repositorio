@@ -1,0 +1,80 @@
+@media only screen and (max-width:500px) {
+    // Main
+    main {
+        margin: 30px;
+    }
+
+    // Index
+    .mainIndex{
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            font-size: 1.2rem;
+            text-align: justify;
+        }
+    }
+
+    // Redes
+    .mainRedes{
+        flex-direction: column;
+        align-items: stretch;
+        .tarjetaIframe{
+            width: 100%;
+        }
+        .tarjetaInstagram{
+            margin-bottom: 70px;
+        }
+    }
+
+    // Trabajos
+    .mainTrabajos{
+        display: flex;
+        flex-direction: column;
+        .texto1{
+            p{
+                margin: 20px 0px 50px;
+                font-size: 1.3rem;
+                text-align: justify;
+            }
+        }
+        .texto2{
+            p{
+                margin: 20px 0px 50px;
+                font-size: 1.3rem;
+                text-align: justify;
+            }
+        }
+        .texto3{
+            p{
+                margin: 20px 0px 50px;
+                font-size: 1.3rem;
+                text-align: justify;
+            }
+        }
+    }
+
+    // Info
+    .mainInfo{
+        margin: 30px;
+        align-items: center;
+        div {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    // Contacto
+    .formulario {
+        margin-top: 10px;
+        form{
+            max-width: 100%;
+        }
+    }
+}
+
+
+
+
+
+

@@ -33,16 +33,16 @@
         </nav>
     </header>
 
-    <section>
+    <main>
+      <section class="formulario">
         <h2>Formulario de contacto</h2>
         <form action="../form.php">
             <label for="">Nombre y Apellido</label>
-            <input type="text" name="Nombre" id="nombre" placeholder="Pepito"><br>
-
+            <input type="text" name="Nombre" id="nombre" placeholder="Pepito">
             <label for="">Email</label>
-            <input type="email" name="Email" id="email" placeholder="Pepito@1234.com"><br><br>
+            <input class="inputEmail" type="email" name="Email" id="email" placeholder="Pepito@1234.com" >
 
-            <label for="">encuesta</label>
+            <label for="">Sobre que le gustaria recibir informacion?</label>
             <ul>
                 <li>
                     <label for="">Diseño</label>
@@ -61,9 +61,10 @@
             <label for="">Detalles</label>
             <textarea name="Detalles" id="detalles" cols="30" rows="5"></textarea>
 
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Enviar" class="boton">
         </form>
     </section>
+    </main>
 
     <footer>
         <h1>Todos los derechos reservados</h1>

@@ -194,6 +194,9 @@ footer a:hover {
   grid-row: 3/4;
 }
 .mainTrabajos .gridTrabajos .texto1 {
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -203,12 +206,16 @@ footer a:hover {
 }
 .mainTrabajos .gridTrabajos .texto1 h2 {
   font-size: 2.5rem;
+  text-decoration: underline 2px;
 }
 .mainTrabajos .gridTrabajos .texto1 p {
   margin: 40px 80px;
   font-size: 1.5rem;
 }
 .mainTrabajos .gridTrabajos .texto2 {
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -219,12 +226,16 @@ footer a:hover {
 }
 .mainTrabajos .gridTrabajos .texto2 h2 {
   font-size: 2.5rem;
+  text-decoration: underline 2px;
 }
 .mainTrabajos .gridTrabajos .texto2 p {
   margin: 40px 80px;
   font-size: 1.5rem;
 }
 .mainTrabajos .gridTrabajos .texto3 {
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -235,6 +246,7 @@ footer a:hover {
 }
 .mainTrabajos .gridTrabajos .texto3 h2 {
   font-size: 2.5rem;
+  text-decoration: underline 2px;
 }
 .mainTrabajos .gridTrabajos .texto3 p {
   margin: 40px 80px;
@@ -266,18 +278,30 @@ footer a:hover {
     display: flex;
     flex-direction: column;
   }
+  .mainTrabajos .gridTrabajos .texto1 {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
   .mainTrabajos .gridTrabajos .texto1 p {
-    margin: 20px 0px 50px;
+    margin: 20px 20px;
     font-size: 1.3rem;
     text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .texto2 {
+    margin: 20px 0px;
+    border-radius: 30px;
   }
   .mainTrabajos .gridTrabajos .texto2 p {
-    margin: 20px 0px 50px;
+    margin: 20px 20px;
     font-size: 1.3rem;
     text-align: justify;
   }
+  .mainTrabajos .gridTrabajos .texto3 {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
   .mainTrabajos .gridTrabajos .texto3 p {
-    margin: 20px 0px 50px;
+    margin: 20px 20px;
     font-size: 1.3rem;
     text-align: justify;
   }

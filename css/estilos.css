@@ -76,6 +76,7 @@ footer a:hover {
 }
 .formulario form {
   background-color: black;
+  min-width: 300px;
   max-width: 20%;
   height: 110%;
   padding: 25px 0px;
@@ -131,7 +132,13 @@ footer a:hover {
   text-align: center;
   margin-bottom: 30px;
 }
-.mainInfo .imagenesInfo {
+.mainInfo .flexImagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainInfo .flexImagenes .imagenesInfo {
+  align-self: center;
   max-width: 300px;
   width: 100%;
   height: auto;
@@ -159,14 +166,19 @@ footer a:hover {
   flex-direction: row;
   align-items: center;
 }
-.mainRedes .iframes .tarjetaIframe {
+.mainRedes .iframes .tarjetaFacebook {
+  min-width: 328px;
   border: 1px solid #000000;
   box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
   -webkit-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
   -moz-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
 }
 .mainRedes .iframes .tarjetaInstagram {
-  width: 20%;
+  min-width: 328px;
+  border: 1px solid #000000;
+  box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
 }
 
 .mainTrabajos h1 {
@@ -267,41 +279,42 @@ footer a:hover {
   }
   .mainRedes .iframes {
     flex-direction: column;
-    align-items: stretch;
-  }
-  .mainRedes .iframes .tarjetaIframe {
-    width: 100%;
+    align-items: center;
   }
   .mainRedes .iframes .tarjetaInstagram {
     margin-bottom: 70px;
+    box-shadow: none;
+  }
+  .mainRedes .iframes .tarjetaFacebook {
+    box-shadow: none;
   }
   .mainTrabajos .gridTrabajos {
     display: flex;
     flex-direction: column;
   }
-  .mainTrabajos .gridTrabajos .texto1 {
+  .mainTrabajos .gridTrabajos .textoFocal {
     margin: 20px 0px;
     border-radius: 30px;
   }
-  .mainTrabajos .gridTrabajos .texto1 p {
+  .mainTrabajos .gridTrabajos .textoFocal p {
     margin: 20px 20px;
     font-size: 1.3rem;
     text-align: justify;
   }
-  .mainTrabajos .gridTrabajos .texto2 {
+  .mainTrabajos .gridTrabajos .textoMinimalista {
     margin: 20px 0px;
     border-radius: 30px;
   }
-  .mainTrabajos .gridTrabajos .texto2 p {
+  .mainTrabajos .gridTrabajos .textoMinimalista p {
     margin: 20px 20px;
     font-size: 1.3rem;
     text-align: justify;
   }
-  .mainTrabajos .gridTrabajos .texto3 {
+  .mainTrabajos .gridTrabajos .textoDetallado {
     margin: 20px 0px;
     border-radius: 30px;
   }
-  .mainTrabajos .gridTrabajos .texto3 p {
+  .mainTrabajos .gridTrabajos .textoDetallado p {
     margin: 20px 20px;
     font-size: 1.3rem;
     text-align: justify;
@@ -310,15 +323,51 @@ footer a:hover {
     margin: 30px;
     align-items: center;
   }
-  .mainInfo div {
-    display: flex;
-    flex-direction: column;
-  }
   .formulario {
     margin-top: 10px;
   }
   .formulario form {
     max-width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .mainRedes .iframes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainRedes .iframes .tarjetaInstagram {
+    margin-bottom: 70px;
+  }
+  .mainTrabajos .gridTrabajos {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainTrabajos .gridTrabajos .textoFocal {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoFocal p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .textoMinimalista {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoMinimalista p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .textoDetallado {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoDetallado p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
   }
 }
 

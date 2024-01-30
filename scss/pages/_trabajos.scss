@@ -13,19 +13,19 @@
         grid-template-rows: 35% 35% 35%;
     
         
-        .carrousel1{
+        .carrouselFocal{
             grid-column: 1/2;
             grid-row: 1/2;
         }
-        .carrousel2{
+        .carrouselMinimalista{
             grid-column: 1/2;
             grid-row: 2/3;
         }
-        .carrousel3{
+        .carrouselDetallado{
             grid-column: 1/2;
             grid-row: 3/4;
         }
-        .texto1{
+        .textoFocal{
             margin: 40px;
             background-color: bisque;
             border-radius: 60px;
@@ -46,7 +46,7 @@
                 font-size: 1.5rem;
             }
         }
-        .texto2{
+        .textoMinimalista{
             margin: 40px;
             background-color: bisque;
             border-radius: 60px;
@@ -67,7 +67,7 @@
                 font-size: 1.5rem;
             }
         }
-        .texto3{
+        .textoDetallado{
             margin: 40px;
             background-color: bisque;
             border-radius: 60px;

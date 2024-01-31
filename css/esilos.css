@@ -1,0 +1,374 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&family=Martel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+main {
+  color: black;
+  margin: 50px;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-family: "Lobster Two", sans-serif;
+  font-size: 1.6rem;
+  width: 100%;
+}
+header .colorHeader {
+  background-color: black;
+}
+header .navbar-expand-lg .navbar-brand {
+  font-size: 2rem;
+}
+header a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: "Lobster Two", sans-serif;
+}
+footer h2 {
+  font-size: 1.5rem;
+}
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.formulario {
+  margin-top: 20px;
+  text-align: center;
+  font-family: "merriweather", serif;
+}
+.formulario h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.formulario form {
+  background-color: black;
+  min-width: 300px;
+  max-width: 20%;
+  height: 110%;
+  padding: 25px 0px;
+  margin: 50px auto;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.formulario form input {
+  width: 80%;
+}
+.formulario form .boton {
+  margin-top: 10px;
+  width: 40%;
+}
+.formulario form ul {
+  list-style: none;
+}
+.formulario form label {
+  margin: 10px;
+}
+
+.mainIndex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "merriweather", serif;
+}
+.mainIndex img {
+  width: 100%;
+  height: 100%;
+}
+.mainIndex h1 {
+  font-size: 3rem;
+}
+.mainIndex p {
+  font-size: 1.7rem;
+  margin: 30px 20px;
+}
+
+.mainInfo {
+  font-family: "merriweather", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mainInfo h1 {
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mainInfo .flexImagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainInfo .flexImagenes .imagenesInfo {
+  align-self: center;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin: 10px 10px;
+}
+.mainInfo h2 {
+  margin: 30px;
+}
+.mainInfo p {
+  font-size: 1.3rem;
+  text-align: justify;
+}
+
+.mainRedes h1 {
+  font-family: "merriweather", serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mainRedes .iframes {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+}
+.mainRedes .iframes .tarjetaFacebook {
+  min-width: 328px;
+  border: 1px solid #000000;
+  box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+}
+.mainRedes .iframes .tarjetaInstagram {
+  min-width: 328px;
+  border: 1px solid #000000;
+  box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: 26px 26px 7px 0px rgba(0, 0, 0, 0.76);
+}
+
+.mainTrabajos h1 {
+  font-family: "merriweather", serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.mainTrabajos .gridTrabajos {
+  font-family: "merriweather", serif;
+  display: grid;
+  grid-template-columns: 25% 65%;
+  grid-template-rows: 35% 35% 35%;
+  align-items: center;
+}
+.mainTrabajos .gridTrabajos .carrouselFocal {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+.mainTrabajos .gridTrabajos .carrouselMinimalista {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.mainTrabajos .gridTrabajos .carrouselDetallado {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+.mainTrabajos .gridTrabajos .textoFocal {
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+.mainTrabajos .gridTrabajos .textoFocal h2 {
+  font-size: 2.5rem;
+  text-decoration: underline 2px;
+}
+.mainTrabajos .gridTrabajos .textoFocal p {
+  margin: 40px 80px;
+  font-size: 1.5rem;
+}
+.mainTrabajos .gridTrabajos .textoMinimalista {
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.mainTrabajos .gridTrabajos .textoMinimalista h2 {
+  font-size: 2.5rem;
+  text-decoration: underline 2px;
+}
+.mainTrabajos .gridTrabajos .textoMinimalista p {
+  margin: 40px 80px;
+  font-size: 1.5rem;
+}
+.mainTrabajos .gridTrabajos .textoDetallado {
+  margin: 40px;
+  background-color: bisque;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.mainTrabajos .gridTrabajos .textoDetallado h2 {
+  font-size: 2.5rem;
+  text-decoration: underline 2px;
+}
+.mainTrabajos .gridTrabajos .textoDetallado p {
+  margin: 40px 80px;
+  font-size: 1.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    margin: 30px;
+  }
+  .mainIndex h1 {
+    text-align: center;
+  }
+  .mainIndex p {
+    font-size: 1.2rem;
+    text-align: justify;
+  }
+  .mainRedes .iframes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainRedes .iframes .tarjetaInstagram {
+    margin-bottom: 70px;
+    box-shadow: none;
+  }
+  .mainRedes .iframes .tarjetaFacebook {
+    box-shadow: none;
+  }
+  .mainTrabajos .gridTrabajos {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainTrabajos .gridTrabajos .textoFocal {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoFocal p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .textoMinimalista {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoMinimalista p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .textoDetallado {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoDetallado p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainInfo {
+    margin: 30px;
+    align-items: center;
+  }
+  .formulario {
+    margin-top: 10px;
+  }
+  .formulario form {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .mainRedes .iframes {
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainRedes .iframes .tarjetaInstagram {
+    margin-bottom: 70px;
+  }
+  .mainTrabajos .gridTrabajos {
+    display: flex;
+    flex-direction: column;
+  }
+  .mainTrabajos .gridTrabajos .textoFocal {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoFocal p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .textoMinimalista {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoMinimalista p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+  .mainTrabajos .gridTrabajos .textoDetallado {
+    margin: 20px 0px;
+    border-radius: 30px;
+  }
+  .mainTrabajos .gridTrabajos .textoDetallado p {
+    margin: 20px 20px;
+    font-size: 1.3rem;
+    text-align: justify;
+  }
+}
+
+/*# sourceMappingURL=esilos.css.map */

@@ -189,6 +189,7 @@ footer a:hover {
 }
 .mainTrabajos .gridTrabajos {
   font-family: "merriweather", serif;
+  margin-bottom: 100px;
   display: grid;
   grid-template-columns: 25% 65%;
   grid-template-rows: 35% 35% 35%;
